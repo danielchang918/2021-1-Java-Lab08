@@ -52,7 +52,7 @@ public class AllConverter {
             System.out.println(value + " KM to " + MILEValue + " MILE");
         }
         else{
-            System.out.println("AllConverter cannot support the measure!");
+            System.out.println("This measure is not supported by AllConverter!");
         }
         
     }
