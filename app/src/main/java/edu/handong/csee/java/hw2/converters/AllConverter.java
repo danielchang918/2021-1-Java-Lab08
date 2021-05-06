@@ -39,8 +39,7 @@ public class AllConverter {
     public void convertAndPrintOut(){
         if(measure.equals("TON"))
         {
-            KGValue = value * 1000;
-            System.out.println(value + " TON to " + KGValue + " KG");
+            System.out.println(value + " TON to " + value * 1000 + " KG");
             System.out.println(value + " TON to " + value * 1000000 + " G");
         }
         else if(measure.equals("KM"))
