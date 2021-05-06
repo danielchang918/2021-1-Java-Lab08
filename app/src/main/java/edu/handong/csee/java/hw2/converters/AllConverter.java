@@ -44,9 +44,8 @@ public class AllConverter {
         }
         else if(measure.equals("KM"))
         {
-            MValue = value * 1000;
             MILEValue = value/1.6;
-            System.out.println(value + " KM to " + MValue + " M");
+            System.out.println(value + " KM to " + value * 1000 + " M");
             System.out.println(value + " KM to " + MILEValue + " MILE");
         }
         else{
